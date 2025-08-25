@@ -1,0 +1,403 @@
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cf4493044a852242e2e56e48c4e560d5).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a849af5baf048aa4c490e0981c774a78).
+2025-08-25 08:30:24 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 08:30:24 [INFO] discord.client: logging in using static token
+2025-08-25 08:30:26 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 192bbd5f9f41935e67685...
+2025-08-25 08:33:17 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 08:33:17 [INFO] discord.client: logging in using static token
+2025-08-25 08:33:19 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2529eae8edafcb5e961a2...
+2025-08-25 08:34:08 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 08:34:08 [INFO] discord.client: logging in using static token
+2025-08-25 08:34:11 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: e21dcc7645550a6acebfb...
+2025-08-25 08:34:13 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 09:03:33 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 09:03:33 [INFO] discord.client: logging in using static token
+2025-08-25 09:03:36 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: eb926b273c4879d1426ec...
+2025-08-25 09:03:39 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 09:06:19 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 09:06:20 [INFO] discord.client: logging in using static token
+2025-08-25 09:06:23 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 54f0a77e4c487ba30f9ec...
+2025-08-25 09:06:26 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:10:41 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:12:11 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:13:31 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:13:32 [INFO] discord.client: logging in using static token
+2025-08-25 12:13:34 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: fe66b252a96ef09aecc38...
+2025-08-25 12:13:36 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:30:01 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:30:02 [INFO] discord.client: logging in using static token
+2025-08-25 12:30:05 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: d67bfa059f1a2fc1951e3...
+2025-08-25 12:30:07 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:30:12 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call ...
+2025-08-25 12:31:44 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:31:44 [INFO] discord.client: logging in using static token
+2025-08-25 12:31:45 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: f35ddec0a16a250cc27db3de748e1670).
+2025-08-25 12:31:47 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:31:51 [ERROR] command: Something wrong with rank command
+2025-08-25 12:31:51 [ERROR] command: 'RANK'
+2025-08-25 12:32:40 [ERROR] command: Something wrong with rank command
+2025-08-25 12:32:40 [ERROR] command: 'RANK'
+2025-08-25 12:33:05 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:33:05 [INFO] discord.client: logging in using static token
+2025-08-25 12:33:12 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: c275bfe559f7b61e81d58efd06b52c4a).
+2025-08-25 12:33:14 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:33:16 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 35, in rank
+    rank=user["RANK"],
+KeyError: 'RANK'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\comman...
+2025-08-25 12:57:58 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:57:58 [INFO] discord.client: logging in using static token
+2025-08-25 12:58:00 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 42cf81051c62176123690c4eead2cf2d).
+2025-08-25 12:58:02 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:58:07 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 30, in rank
+    user = bot.data.getUser(ctx.author.id)
+  File "d:\Code\BotDiscord\data.py", line 82, in getUser
+    user["RANK"] = self.getRank(id)
+  File "d:\Code\BotDiscord\data.py", line 75, in getRank
+    return self.data[id]["RANK"]
+KeyError: 'RANK'
+
+T...
+2025-08-25 12:58:32 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:58:32 [INFO] discord.client: logging in using static token
+2025-08-25 12:58:34 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 33d53f7aba4257adff3b93eaa59f4c2f).
+2025-08-25 12:58:36 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:58:38 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 30, in rank
+    user = bot.data.getUser(ctx.author.id)
+  File "d:\Code\BotDiscord\data.py", line 82, in getUser
+    user["RANK"] = self.getRank(id)
+  File "d:\Code\BotDiscord\data.py", line 75, in getRank
+    return self.data[id]["RANK"]
+KeyError: 'RANK'
+
+T...
+2025-08-25 12:59:18 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 12:59:18 [INFO] discord.client: logging in using static token
+2025-08-25 12:59:20 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 7fce9c3e85f7a4db9ecd5903bd7a9ffa).
+2025-08-25 12:59:22 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 12:59:24 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 32, in rank
+    out_path = rc.rank_card(
+  File "d:\Code\BotDiscord\DrawCard.py", line 29, in rank_card
+    d = self.drawProgressBar(d, 260, 180, 575, 40, current_xp/next_level_xp, bg="#484B4E", fg = xp_color) # create progress bar
+  File "d:\Code\BotDiscor...
+2025-08-25 13:01:32 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:01:32 [DEBUG] discord.client: on_ready has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_member_join has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_member_remove has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_message has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_voice_state_update has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_reaction_add has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] discord.client: on_reaction_remove has successfully been registered as an event
+2025-08-25 13:01:32 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-08-25 13:01:32 [INFO] discord.client: logging in using static token
+2025-08-25 13:01:36 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5c25993a27be24364528bda13ab77505).
+2025-08-25 13:01:38 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:01:46 [DEBUG] event: Message: c!rank
+2025-08-25 13:01:46 [DEBUG] command: Rank called by _chaos_max
+2025-08-25 13:01:46 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): cdn.discordapp.com:443
+2025-08-25 13:01:46 [DEBUG] urllib3.connectionpool: https://cdn.discordapp.com:443 "GET /avatars/814859352044732427/73e1b4d41372d9af9bacea2126dc9759.png?size=1024 HTTP/1.1" 200 1682019
+2025-08-25 13:01:48 [DEBUG] PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2025-08-25 13:01:48 [DEBUG] PIL.PngImagePlugin: STREAM b'sRGB' 41 1
+2025-08-25 13:01:48 [DEBUG] PIL.PngImagePlugin: STREAM b'IDAT' 54 8192
+2025-08-25 13:01:48 [ERROR] discord.ext.commands.bot: Ignoring exception in command rank
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 32, in rank
+    out_path = rc.rank_card(
+  File "d:\Code\BotDiscord\DrawCard.py", line 29, in rank_card
+    d = self.drawProgressBar(d, 260, 180, 575, 40, current_xp/next_level_xp, bg="#484B4E", fg = xp_color) # create progress bar
+  File "d:\Code\BotDiscor...
+2025-08-25 13:09:51 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:09:51 [INFO] discord.client: logging in using static token
+2025-08-25 13:09:54 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: f404d3efe4a464d801bb05ec86e3e92d).
+2025-08-25 13:09:56 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:11:34 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:11:35 [INFO] discord.client: logging in using static token
+2025-08-25 13:11:36 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: a84e7265c3bc09c64926b0cab57f069a).
+2025-08-25 13:11:38 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:11:45 [INFO] event: Message: c!rank
+2025-08-25 13:11:45 [INFO] command: Rank called by _chaos_max
+2025-08-25 13:11:54 [INFO] event: Message: Hmmm
+2025-08-25 13:12:02 [INFO] event: Message: c!rank
+2025-08-25 13:12:02 [INFO] command: Rank called by _chaos_max
+2025-08-25 13:12:32 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:12:32 [INFO] discord.client: logging in using static token
+2025-08-25 13:12:34 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: a5c9b968a4429d2cb1f734fa314b87a6).
+2025-08-25 13:12:36 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:12:41 [INFO] event: Member joined voice channel: _chaos_max
+2025-08-25 13:14:18 [INFO] event: Member left voice channel: _chaos_max
+2025-08-25 13:14:23 [INFO] event: Message: c!rank
+2025-08-25 13:14:23 [INFO] command: Rank called by _chaos_max
+2025-08-25 13:16:37 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:16:38 [INFO] discord.client: logging in using static token
+2025-08-25 13:16:39 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 53743c827d9228bbf1b57368fa60b5d2).
+2025-08-25 13:16:41 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:17:35 [INFO] event: Message: hello
+2025-08-25 13:17:52 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:17:53 [INFO] discord.client: logging in using static token
+2025-08-25 13:17:54 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: f82592dda829f813940eb811b0094da3).
+2025-08-25 13:17:56 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:18:03 [INFO] event: Message: hello
+2025-08-25 13:20:13 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:20:13 [INFO] discord.client: logging in using static token
+2025-08-25 13:20:15 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 28611450efece121b5d9bc136bd76275).
+2025-08-25 13:20:17 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:20:28 [INFO] event: Message: hello
+2025-08-25 13:20:54 [INFO] event: Member react: _chaos_max
+2025-08-25 13:22:02 [INFO] event: Message: Hmmm
+2025-08-25 13:22:09 [INFO] event: Member react: _chaos_max
+2025-08-25 13:22:20 [INFO] event: Member remove react: _chaos_max
+2025-08-25 13:22:24 [INFO] event: Member react: _chaos_max
+2025-08-25 13:50:03 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 13:50:03 [INFO] discord.client: logging in using static token
+2025-08-25 13:50:06 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: caeab263cc61a42d7163d3f24a1ba08b).
+2025-08-25 13:50:08 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 13:50:20 [INFO] event: Message: /rank
+2025-08-25 13:51:29 [INFO] event: Message: m!p https://youtu.be/phuiiNCxRMg?si=Hi4ZWZSWH-AU3zLo
+2025-08-25 14:19:08 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:19:08 [INFO] discord.client: logging in using static token
+2025-08-25 14:19:10 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6ebd50e3d4bf61c7b00d48e70a570d0b).
+2025-08-25 14:19:12 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:19:34 [INFO] event: Message: c!rank
+2025-08-25 14:19:34 [INFO] command: Rank called by _chaos_max
+2025-08-25 14:19:39 [INFO] event: Message: c!scoreboard
+2025-08-25 14:19:40 [ERROR] discord.ext.commands.bot: Ignoring exception in command scoreboard
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 62, in scoreboard
+    await ctx.send(display)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\context.py", line 1043, in send
+    return await super().send(
+  File "C:\Users\ADMIN\AppData\Local\Pro...
+2025-08-25 14:20:13 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:20:13 [INFO] discord.client: logging in using static token
+2025-08-25 14:20:17 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1d02210da224ed38bbd40f5db0428f7e).
+2025-08-25 14:20:19 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:20:21 [INFO] event: Member left voice channel: Jockie Music (1)#6951
+2025-08-25 14:20:21 [ERROR] event: Something wrong with on_voice_state_update
+2025-08-25 14:20:21 [ERROR] event: 'VOICE_JOIN_TIME'
+2025-08-25 14:20:22 [INFO] event: Message: c!scoreboard
+2025-08-25 14:20:23 [ERROR] discord.ext.commands.bot: Ignoring exception in command scoreboard
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 62, in scoreboard
+    await ctx.send(display)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\context.py", line 1043, in send
+    return await super().send(
+  File "C:\Users\ADMIN\AppData\Local\Pro...
+2025-08-25 14:20:41 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:20:41 [INFO] discord.client: logging in using static token
+2025-08-25 14:20:43 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5a7ff736fdedfb13a62734209de622af).
+2025-08-25 14:20:45 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:20:48 [INFO] event: Message: c!scoreboard
+2025-08-25 14:20:48 [ERROR] discord.ext.commands.bot: Ignoring exception in command scoreboard
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 63, in scoreboard
+    await ctx.send(display)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\context.py", line 1043, in send
+    return await super().send(
+  File "C:\Users\ADMIN\AppData\Local\Pro...
+2025-08-25 14:21:37 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:21:37 [INFO] discord.client: logging in using static token
+2025-08-25 14:22:03 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 063f3f30e4b1ae8207589d6ad31f254a).
+2025-08-25 14:22:05 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:22:10 [INFO] event: Message: c!scoreboard
+2025-08-25 14:22:10 [ERROR] discord.ext.commands.bot: Ignoring exception in command scoreboard
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 63, in scoreboard
+    await ctx.send(display)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\context.py", line 1043, in send
+    return await super().send(
+  File "C:\Users\ADMIN\AppData\Local\Pro...
+2025-08-25 14:22:43 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:22:43 [INFO] discord.client: logging in using static token
+2025-08-25 14:22:45 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: d3b5e1d9dba5bba37b1c793fc1d7ec65).
+2025-08-25 14:22:47 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:22:52 [INFO] event: Message: c!scoreboard
+2025-08-25 14:22:52 [ERROR] discord.ext.commands.bot: Ignoring exception in command scoreboard
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\command.py", line 64, in scoreboard
+    await ctx.send(display)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\context.py", line 1043, in send
+    return await super().send(
+  File "C:\Users\ADMIN\AppData\Local\Pro...
+2025-08-25 14:23:31 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:23:31 [INFO] discord.client: logging in using static token
+2025-08-25 14:23:33 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2126fbd749c2efe40d7a2e0bc74e99f3).
+2025-08-25 14:23:35 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:23:41 [INFO] event: Message: c!scoreboard
+2025-08-25 14:30:51 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:30:51 [INFO] discord.client: logging in using static token
+2025-08-25 14:30:53 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: bc1b07516cfcdef42d031dc89511b883).
+2025-08-25 14:30:55 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:31:00 [INFO] event: Message: c!scoreboard
+2025-08-25 14:31:20 [INFO] event: Member joined voice channel: 7run9tustu
+2025-08-25 14:32:05 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:32:05 [INFO] discord.client: logging in using static token
+2025-08-25 14:32:07 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: cccdec0b89c8274e374bc5b9753f329b).
+2025-08-25 14:32:10 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:32:17 [INFO] event: Member left voice channel: ning03275
+2025-08-25 14:32:17 [ERROR] event: Something wrong with on_voice_state_update
+2025-08-25 14:32:17 [ERROR] event: '1407013342132043928'
+2025-08-25 14:32:18 [INFO] event: Message: c!scoreboard
+2025-08-25 14:33:39 [WARNING] discord.gateway: Can't keep up, shard ID None websocket is 10.6s behind.
+2025-08-25 14:34:22 [WARNING] discord.gateway: Can't keep up, shard ID None websocket is 11.8s behind.
+2025-08-25 14:37:31 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:37:32 [INFO] discord.client: logging in using static token
+2025-08-25 14:37:35 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1e1687e55e3910a7cea0a9ee2c7ba611).
+2025-08-25 14:37:37 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:37:47 [INFO] event: Message: c!scoreboard
+2025-08-25 14:37:47 [INFO] command: Scoreboard called by_chaos_max
+2025-08-25 14:38:40 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:38:40 [INFO] discord.client: logging in using static token
+2025-08-25 14:39:37 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:39:38 [INFO] discord.client: logging in using static token
+2025-08-25 14:39:41 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:39:41 [INFO] discord.client: logging in using static token
+2025-08-25 14:39:43 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5aba0c6e31aea9e9f062bb8c3b585fb6).
+2025-08-25 14:39:45 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:39:56 [INFO] event: Message: c!scoreboard
+2025-08-25 14:39:56 [INFO] command: Scoreboard called by_chaos_max
+2025-08-25 14:41:15 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:41:15 [INFO] discord.client: logging in using static token
+2025-08-25 14:41:17 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: c0e9cc464637d0f4e7581403a096e464).
+2025-08-25 14:41:19 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:41:28 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:41:28 [INFO] discord.client: logging in using static token
+2025-08-25 14:41:30 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 18d590aebe3b26b0b0fa302a51557391).
+2025-08-25 14:41:32 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:41:42 [INFO] event: Message: c!status
+2025-08-25 14:41:42 [ERROR] discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "status" is not found
+2025-08-25 14:41:47 [INFO] event: Message: c!scoreboard
+2025-08-25 14:41:47 [INFO] command: Scoreboard called by_chaos_max
+2025-08-25 14:43:17 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 14:43:17 [INFO] discord.client: logging in using static token
+2025-08-25 14:43:19 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 41034aaa19a643661a02496738e49382).
+2025-08-25 14:43:21 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 14:43:28 [INFO] event: Message: c!scoreboard
+2025-08-25 14:43:28 [INFO] command: Scoreboard called by_chaos_max
+2025-08-25 17:21:20 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:21:21 [INFO] discord.client: logging in using static token
+2025-08-25 17:21:23 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: f5b5f793d7eecef34c7316adbf2e4cb8).
+2025-08-25 17:21:25 [INFO] main: Bot is ready as Chaos Form#7147
+2025-08-25 17:21:25 [ERROR] discord.client: Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\main.py", line 46, in on_ready
+    task.setup_task(bot)
+AttributeError: partially initialized module 'task' has no attribute 'setup_task' (most likely due to a circular import)
+2025-08-25 17:22:43 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:22:43 [INFO] discord.client: logging in using static token
+2025-08-25 17:22:46 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: ed4de1759ab04f7f4b121028983ad43f).
+2025-08-25 17:22:48 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:22:48 [INFO] task: Auto check user
+2025-08-25 17:22:48 [ERROR] discord.ext.tasks: Unhandled exception in internal background task 'check'.
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "d:\Code\BotDiscord\task.py", line 33, in check
+    for id, user in data.items():
+RuntimeError: dictionary changed size during iteration
+2025-08-25 17:25:31 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:25:31 [INFO] discord.client: logging in using static token
+2025-08-25 17:25:33 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: d88833cc192528ba48c3bd931411523c).
+2025-08-25 17:25:35 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:25:35 [INFO] task: Auto check user
+2025-08-25 17:26:01 [INFO] event: Message: Hmmm
+2025-08-25 17:26:10 [INFO] event: Message: :V Bị ping r
+2025-08-25 17:26:54 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:26:54 [INFO] discord.client: logging in using static token
+2025-08-25 17:26:56 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: b35be6dbd458b67ab2e606ceeb54d55c).
+2025-08-25 17:26:58 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:26:58 [INFO] task: Auto check user
+2025-08-25 17:27:55 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:27:55 [INFO] discord.client: logging in using static token
+2025-08-25 17:27:56 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: dcd4699011a2670bff87a4d444b15cae).
+2025-08-25 17:27:58 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:27:58 [INFO] task: Auto check user
+2025-08-25 17:28:55 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:28:56 [INFO] discord.client: logging in using static token
+2025-08-25 17:28:57 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 13655ad45b183bfa088af845e72d2c7b).
+2025-08-25 17:28:59 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:28:59 [INFO] task: Auto check user
+2025-08-25 17:29:01 [INFO] event: Member joined voice channel: _chaos_max
+2025-08-25 17:29:16 [INFO] event: Member left voice channel: _chaos_max
+2025-08-25 17:29:50 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:29:50 [INFO] discord.client: logging in using static token
+2025-08-25 17:29:51 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: bae8f61acad06bd23cfb399aeed77657).
+2025-08-25 17:29:53 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:29:53 [INFO] task: Auto check user
+2025-08-25 17:30:22 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:30:22 [INFO] discord.client: logging in using static token
+2025-08-25 17:30:24 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: d70e28698dcd816d7129afbc3752c5fb).
+2025-08-25 17:30:26 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:30:26 [INFO] task: Auto check user
+2025-08-25 17:30:55 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:30:55 [INFO] discord.client: logging in using static token
+2025-08-25 17:30:58 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 0d1e11b01b217103d0b7ba60e45613c7).
+2025-08-25 17:31:00 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:31:00 [INFO] task: Auto check user
+2025-08-25 17:31:00 [INFO] task: Kick user 814859352044732427 for not active for 22 days
+2025-08-25 17:31:00 [ERROR] task: Member is None
+2025-08-25 17:31:43 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:31:44 [INFO] discord.client: logging in using static token
+2025-08-25 17:31:45 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 80d9daa1644fba3b314f928502cae36d).
+2025-08-25 17:31:47 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:31:47 [INFO] task: Auto check user
+2025-08-25 17:31:47 [INFO] task: Kick user 814859352044732427 for not active for 22 days
+2025-08-25 17:36:34 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 17:36:34 [INFO] discord.client: logging in using static token
+2025-08-25 17:36:36 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1a452775e44401edda372c1fcaa79de9).
+2025-08-25 17:36:38 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 17:36:38 [INFO] task: Auto check user
+2025-08-25 17:37:04 [INFO] event: Message: c!rank
+2025-08-25 17:37:04 [INFO] command: Rank called by _chaos_max
+2025-08-25 18:59:50 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 19:03:11 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 19:03:11 [INFO] discord.client: logging in using static token
+2025-08-25 19:03:13 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 3e20588366414117ff59b2fb89241442).
+2025-08-25 19:03:15 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 19:03:15 [INFO] task: Auto check user
+2025-08-25 19:03:25 [INFO] event: Message: c!help
+2025-08-25 19:04:06 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-08-25 19:04:07 [INFO] discord.client: logging in using static token
+2025-08-25 19:04:08 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 81e8f5b8c42e6316721b1afc8a528c7e).
+2025-08-25 19:04:10 [INFO] __main__: Bot is ready as Chaos Form#7147
+2025-08-25 19:04:10 [INFO] task: Auto check user
+2025-08-25 19:04:21 [INFO] event: Message: c!help
