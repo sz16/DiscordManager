@@ -18,7 +18,7 @@ def setup_task(bot: "MyBot"):
         if isinstance(channel, discord.TextChannel):
             await channel.send(message)
     
-    @tasks.loop(minutes=1)
+    @tasks.loop(minutes=15)
     async def check():
         data = bot.data.getData()
         # --- Check user valid
@@ -58,5 +58,6 @@ def setup_task(bot: "MyBot"):
                     await chat(f"Có lỗi đã xảy ra. Bot không đủ quyền hạn để thực hiện kick user này.")
                 except Exception as e:
                     logger.error(e)
+
 
     check.start()    
