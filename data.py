@@ -164,7 +164,7 @@ class Data:
         else:
             # Parse lại timestamp
             join_time = datetime.fromisoformat(self.data[id].get("VOICE_JOIN_TIME", 0))
-            voice_minutes = int((datetime.now() - join_time).total_seconds() // 60)
+            voice_minutes = abs(int((datetime.now() - join_time).total_seconds() // 60))
             if voice_minutes < 60 * 72: #Voice 3 ngày => Vô lý
                 self.data[id]["VOICE"] += voice_minutes
                 self.data[id]["EXP"] += voice_minutes * VOICE_EXP
@@ -174,4 +174,5 @@ class Data:
         id = str(id)
         self.checkUser(id)
         self.data[id]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
+
         self.saveJson()
