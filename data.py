@@ -167,7 +167,7 @@ class Data:
             voice_minutes = abs(int((datetime.now() - join_time).total_seconds() // 60))
             if voice_minutes < 60 * 72: #Voice 3 ngày => Vô lý
                 self.data[id]["VOICE"] += voice_minutes
-                self.data[id]["EXP"] += voice_minutes * VOICE_EXP
+                self.data[id]["EXP"] += voice_minutes * VOICE_EXP // 3
         self.updateLast(id)
     
     def getWarn(self, id):
@@ -176,3 +176,4 @@ class Data:
         self.data[id]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
 
         self.saveJson()
+
