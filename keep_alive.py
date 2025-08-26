@@ -8,6 +8,12 @@ if TYPE_CHECKING:
     from main import MyBot
 botClone: Optional["MyBot"] = None
 
+import logging
+
+# Tắt logging của werkzeug
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)  # chỉ hiển thị error trở lên
+
 app = Flask(__name__)
 log_path = 'data.json'
 
