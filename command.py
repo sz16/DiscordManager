@@ -6,7 +6,7 @@ import DrawCard
 import logging
 import asyncio
 
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Optional
 if TYPE_CHECKING:
     from main import MyBot
 
@@ -49,7 +49,9 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
         )
     
     @bot.command()
-    async def rank(ctx:commands.Context):
+    async def rank(ctx:commands.Context, member = None):
+        if member is None:
+            member = ctx.author #type:ignore
         async with ctx.typing():
             logger.info("Rank called by " + ctx.author.name)
             # out_path = rc.rank_card(
@@ -62,10 +64,10 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
             #     custom_background=(47,49,54),
             #     xp_color=(0, 255, 127)
             # )
-            user = bot.data.getUser(ctx.author.id)
+            user = bot.data.getUser(member.id) 
             out_path = rc.rank_card(
-                username=ctx.author.name,
-                avatar=ctx.author.display_avatar.url,
+                username=member.name,
+                avatar=member.display_avatar.url,
                 level=user["LEVEL"],
                 rank=user["RANK"],
                 current_xp=user["NOW_EXP"],
@@ -74,6 +76,13 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
                 xp_color=(0, 255, 127)
             )
             await ctx.send(file=discord.File(out_path))
+    
+    @rank.error
+    async def rank_error(ctx:commands.Context, error):
+        if isinstance(error, commands.BadArgument):
+            await ctx.send('Không tìm thấy người dùng nây')
+        else:
+            await ctx.send('Có lỗi xảy ra. Vui lòng gọi ChaosMAX_ để khứa giải quyết')
         
     @bot.command()
     async def scoreboard(ctx:commands.Context):
@@ -86,7 +95,7 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
         for i, data in board.items():
             if i == str(ctx.author.id):
                 used = True
-            display += f"| {data['RANK']:<6} | {clean_name(bot.get_user(int(i)).display_name):<32} | {data['LEVEL']:<6} | {data['EXP']:<8} |\n" #type:ignore
+            display += f"| {data['RANK']:<6} | {clean_name(ctx.guild.get_member(int(i)).display_name):<32} | {data['LEVEL']:<6} | {data['EXP']:<8} |\n" #type:ignore
             line += 1
             if line == MAXLINE:
                 break
@@ -105,7 +114,7 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
         await asyncio.sleep(10)
         await msg.edit(content="Thêm 0️⃣ exp cho người dùng thành công.")
         await asyncio.sleep(3)
-        await msg.edit(content="Add 0️⃣ exp cho người dùng thành công.\n:)))) Thật sự bro nghĩ rằng thg ChaosMAX_ sẽ thiết kế cái tính năng đấy à :)))")
+        await msg.edit(content="Add 0️⃣ exp cho người dùng thành công.\n:))))\nThật sự bro nghĩ rằng thg ChaosMAX_ sẽ thiết kế cái tính năng đấy à :)))")
     
     @bot.command()
     async def kick(ctx:commands.Context, user:discord.User):

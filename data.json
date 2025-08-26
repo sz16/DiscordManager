@@ -1,651 +1,1202 @@
 {
     "1258883586434793554": {
         "NAME": "trasuahoanhaicuanhism",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-26",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-26T00:40:01"
+        "DISPLAY": "trasuahoanhaicuanhism",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 740,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 3,
+            "EXP": 21,
+            "LEVEL_EXP": 150,
+            "TOTAL_EXP": 246
+        }
     },
     "957258109905154128": {
         "NAME": "soo_ahh",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 153,
-        "LEVEL": 2,
-        "MESSAGE": 1,
-        "VOICE": 151,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T18:06:05"
+        "DISPLAY": "soo_ahh",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 3,
+            "VOICE_TIME": 728,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 3,
+            "EXP": 23,
+            "LEVEL_EXP": 150,
+            "TOTAL_EXP": 248
+        }
     },
     "1386545834585227264": {
         "NAME": "Chaos Form",
-        "FIRST_UPDATE": "2025-08-25",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "Chaos Form",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-25",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1160384710237761566": {
         "NAME": "micaylaanhday",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "micaylaanhday",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "995070863303004332": {
         "NAME": "michioryomenn",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "michioryomenn",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "903989138523570237": {
         "NAME": "usal71",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "usal71",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "678566050836774912": {
         "NAME": "hu1203",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 4,
-        "LEVEL": 1,
-        "MESSAGE": 2,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "hu1203",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 2,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 4,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 4
+        }
     },
     "235148962103951360": {
         "NAME": "Carl-bot",
-        "FIRST_UPDATE": "2025-08-25",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "Carl-bot",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-25",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "488301451291000863": {
         "NAME": "yoi_yami_san",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 140,
-        "LEVEL": 2,
-        "MESSAGE": 1,
-        "VOICE": 133,
-        "REACTION": 1,
-        "VOICE_JOIN_TIME": "2025-08-25T19:30:55"
+        "DISPLAY": "yoi_yami_san",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 8,
+            "VOICE_TIME": 133,
+            "REACTION": 2
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 70,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 70
+        }
     },
     "1079305340883050568": {
         "NAME": "_loh.nguyen_",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "_loh.nguyen_",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1222208451665461369": {
         "NAME": "hattieuxanh.",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "hattieuxanh.",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1400440580668133419": {
         "NAME": "huy023837",
-        "FIRST_UPDATE": "2025-08-14",
-        "LAST_REACT": "2025-08-24",
-        "LAST_REMINDED": "2025-08-14",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "huy023837",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-14",
+            "LAST_REACT": "2025-08-24",
+            "LAST_REMINDED": "2025-08-14"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "852793027462561812": {
         "NAME": "_nov20th",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "_nov20th",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "887970058599538709": {
         "NAME": "n4m3l3ss3r",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "n4m3l3ss3r",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "731888504895963146": {
         "NAME": "samcanov1",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "samcanov1",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1204710782957518863": {
         "NAME": "overdos6",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "overdos6",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "811822913774026763": {
         "NAME": "doanhduy",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 7,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 7,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T14:53:00"
+        "DISPLAY": "doanhduy",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 7,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 2,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 2
+        }
     },
     "1022159763032789073": {
         "NAME": "htrancong8416",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-23",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "htrancong8416",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 4,
+            "VOICE_TIME": 52,
+            "REACTION": 2
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 35,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 35
+        }
     },
     "695189202769281174": {
         "NAME": "minhocdi1113506",
-        "FIRST_UPDATE": "2025-08-25",
-        "LAST_REACT": "2025-08-26",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-26T01:07:10"
+        "DISPLAY": "minhocdi1113506",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-25",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 143,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 47,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 47
+        }
     },
     "547905866255433758": {
         "NAME": "Hydra",
-        "FIRST_UPDATE": "2025-08-25",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "Hydra",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-25",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "694774504504950856": {
         "NAME": "sunsuhan",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "sunsuhan",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1102601679758692382": {
         "NAME": "caohaibinh",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-20",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "caohaibinh",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-20",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "964409475886878750": {
         "NAME": "cai_gi_",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-24",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "cai_gi_",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 335,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 2,
+            "EXP": 11,
+            "LEVEL_EXP": 125,
+            "TOTAL_EXP": 111
+        }
     },
     "908887423788941342": {
         "NAME": "7run9tustu",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 219,
-        "LEVEL": 2,
-        "MESSAGE": 8,
-        "VOICE": 203,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T19:36:03"
+        "DISPLAY": "7run9tustu",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 8,
+            "VOICE_TIME": 291,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 2,
+            "EXP": 13,
+            "LEVEL_EXP": 125,
+            "TOTAL_EXP": 113
+        }
     },
     "1121791748583215174": {
         "NAME": "truong05500",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "truong05500",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1229039352797991013": {
         "NAME": "vuquyen3101_06",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-24",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "vuquyen3101_06",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-24",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "909067554411130891": {
         "NAME": "phule101",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "phule101",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "835474354279022603": {
         "NAME": ".viet",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": ".viet",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1089733114630242385": {
         "NAME": "qnlkragon",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "qnlkragon",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 1,
+            "VOICE_TIME": 38,
+            "REACTION": 3
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 29,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 29
+        }
     },
     "610105499488092181": {
         "NAME": "duongdayneduong",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-21",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "duongdayneduong",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-21",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1160953506983854111": {
         "NAME": "hanasugoiiii_19973",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "hanasugoiiii_19973",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "914389955793543240": {
         "NAME": ".verlet",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": ".verlet",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "679292312567676950": {
         "NAME": "danggduongg",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-21",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "danggduongg",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-21",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "560364145162059791": {
         "NAME": "seeyouagainatsummer",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "seeyouagainatsummer",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "606379412006502404": {
         "NAME": "anmhaz",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "anmhaz",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "412347257233604609": {
         "NAME": "Jockie Music (1)",
-        "FIRST_UPDATE": "2025-08-25",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "Jockie Music (1)",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-25",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 18,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 6,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 6
+        }
     },
     "1298623139554525258": {
         "NAME": "tanakakatta.",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-26",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 15,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 15,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-26T00:47:25"
+        "DISPLAY": "tanakakatta.",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 1,
+            "VOICE_TIME": 707,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 3,
+            "EXP": 12,
+            "LEVEL_EXP": 150,
+            "TOTAL_EXP": 237
+        }
     },
     "812207328735526954": {
         "NAME": "2imduc_",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-24",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "2imduc_",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-24",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "903506998421766154": {
         "NAME": "yukihio",
-        "FIRST_UPDATE": "2025-08-24",
-        "LAST_REACT": "2025-08-24",
-        "LAST_REMINDED": "2025-08-24",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "yukihio",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-24",
+            "LAST_REACT": "2025-08-24",
+            "LAST_REMINDED": "2025-08-24"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "750527075710009445": {
         "NAME": "longbigbrain",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "longbigbrain",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1142326932730552390": {
         "NAME": "lullabaii",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-21",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "lullabaii",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-21",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "812675844941152256": {
         "NAME": "_staif",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "_staif",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "863798712378327052": {
         "NAME": "chi3321",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "chi3321",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1051903923646111744": {
         "NAME": ".incute",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": ".incute",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "908889505166143578": {
         "NAME": "haukowibu",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "haukowibu",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 292,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 97,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 97
+        }
     },
     "1398840362348580944": {
         "NAME": "khinisntshield",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "khinisntshield",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "978787401671516212": {
         "NAME": "huysown_11",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "huysown_11",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "744568767601836093": {
         "NAME": "linh13tui",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "linh13tui",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "877029738252759052": {
         "NAME": "_cyislee",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "_cyislee",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "1380969286427742329": {
         "NAME": "nbnbong25102007",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "nbnbong25102007",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "952165228194463825": {
         "NAME": "i_am_shin",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-22",
-        "LAST_REMINDED": "2025-08-12",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "i_am_shin",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-22",
+            "LAST_REMINDED": "2025-08-12"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "807868620918882326": {
         "NAME": "trung9256",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 48,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 48,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T19:32:00"
+        "DISPLAY": "trung9256",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 48,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 16,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 16
+        }
     },
     "1322547114659811420": {
         "NAME": "duc033100",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "duc033100",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "760840540769353758": {
         "NAME": "bodyhunter0102",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T15:05:11"
+        "DISPLAY": "bodyhunter0102",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "956568319681515540": {
         "NAME": "kuroztronuz",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "kuroztronuz",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "400626600439185409": {
         "NAME": "mrsimple_9x",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-12",
-        "LAST_REMINDED": "2025-08-26",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "REACTION": 0
+        "DISPLAY": "mrsimple_9x",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-12",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
     },
     "814859352044732427": {
         "NAME": "_chaos_max",
-        "FIRST_UPDATE": "2025-08-12",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 180,
-        "LEVEL": 2,
-        "MESSAGE": 6,
-        "VOICE": 158,
-        "REACTION": 0,
-        "VOICE_JOIN_TIME": "2025-08-25T17:29:01"
+        "DISPLAY": "_chaos_max",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-12",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 8,
+            "VOICE_TIME": 427,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 2,
+            "EXP": 58,
+            "LEVEL_EXP": 125,
+            "TOTAL_EXP": 158
+        }
     },
     "1407013342132043928": {
         "NAME": "ning03275",
-        "FIRST_UPDATE": "2025-08-04",
-        "LAST_REACT": "2025-08-25",
-        "LAST_REMINDED": "2025-08-25",
-        "EXP": 0,
-        "LEVEL": 1,
-        "MESSAGE": 0,
-        "VOICE": 0,
-        "VOICE_JOIN_TIME": 0,
-        "REACTION": 0
+        "DISPLAY": "ning03275",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-04",
+            "LAST_REACT": "2025-08-25",
+            "LAST_REMINDED": "2025-08-25"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 0,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 0,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 0
+        }
+    },
+    "859058609870077982": {
+        "NAME": "banyluvu",
+        "DISPLAY": "banyluvu",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-26",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 48,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 16,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 16
+        }
+    },
+    "909987834281230336": {
+        "NAME": "_futari272",
+        "DISPLAY": "_futari272",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-26",
+            "LAST_REACT": "2025-08-26",
+            "LAST_REMINDED": "2025-08-26"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 45,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 15,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 15
+        }
     }
 }

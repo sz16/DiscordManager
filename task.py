@@ -18,7 +18,7 @@ def setup_task(bot: "MyBot"):
         if isinstance(channel, discord.TextChannel):
             await channel.send(message)
     
-    @tasks.loop(minutes=15)
+    @tasks.loop(minutes=1)
     async def check():
         data = bot.data.getData()
         # --- Check user valid
@@ -26,15 +26,15 @@ def setup_task(bot: "MyBot"):
         if server is None:
             logger.error("Server is None")
             return
-        bot.data.verifyData(list((str(i.id), i.name) for i in server.members))
+        bot.data.verifyData(list((str(i.id), i.name, i.display_name) for i in server.members if i.bot == False))
             
         # --- Check user last react
         logger.info("Auto check user")
         for id, user in data.items():
             #Check amount of day from LAST_REACT to today
-            delta = (datetime.now() - datetime.strptime(user["LAST_REACT"], '%Y-%m-%d')).days
+            delta = (datetime.now() - datetime.strptime(user['TIMELINE']["LAST_REACT"], '%Y-%m-%d')).days
             #print(user["NAME"], delta)
-            if (datetime.now() - datetime.strptime(user['LAST_REMINDED'], '%Y-%m-%d')).days == 0:
+            if (datetime.now() - datetime.strptime(user['TIMELINE']['LAST_REMINDED'], '%Y-%m-%d')).days == 0:
                 continue
             if delta == 14:
                 await chat(f"<@{id}> Hmmm, bro chưa hoạt động được 14 ngày rồi. Sớm quay lại server nhá")
@@ -58,6 +58,5 @@ def setup_task(bot: "MyBot"):
                     await chat(f"Có lỗi đã xảy ra. Bot không đủ quyền hạn để thực hiện kick user này.")
                 except Exception as e:
                     logger.error(e)
-
 
     check.start()    

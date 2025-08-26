@@ -15,26 +15,36 @@ log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)  # chỉ hiển thị error trở lên
 
 app = Flask(__name__)
-log_path = 'data.json'
+data_path = 'data.json'
+log_path = 'bot.log'
 
 @app.route('/')
 def index():
     return "Alive"
 
-@app.route('/logs')
-def send_logs():
+@app.route('/data')
+def send_data():
+    if os.path.exists(data_path):
+        with open(data_path, 'r', encoding='utf-8') as f:
+            data = f.read()
+        return Response(data, mimetype='application/json')
+    else:
+        return jsonify({"error": "Log file not found"}), 404
+
+@app.route('/log')
+def send_log():
     if os.path.exists(log_path):
         with open(log_path, 'r', encoding='utf-8') as f:
             data = f.read()
-        return Response(data, mimetype='application/json')
+        return Response(data, mimetype='text/plain')
     else:
         return jsonify({"error": "Log file not found"}), 404
 
 # Giao diện chỉnh sửa JSON
 @app.route('/edit', methods=['GET'])
 def edit_logs():
-    if os.path.exists(log_path):
-        with open(log_path, 'r', encoding='utf-8') as f:
+    if os.path.exists(data_path):
+        with open(data_path, 'r', encoding='utf-8') as f:
             data = f.read()
     else:
         data = "{}"
@@ -57,7 +67,7 @@ def update_logs():
         parsed = json.loads(data)  # kiểm tra JSON hợp lệ
     except Exception as e:
         return f"Invalid JSON: {e}", 400
-    with open(log_path, 'w', encoding='utf-8') as f:
+    with open(data_path, 'w', encoding='utf-8') as f:
         json.dump(parsed, f, ensure_ascii=False, indent=4)
     if botClone is not None:
         botClone.data.loadJson()

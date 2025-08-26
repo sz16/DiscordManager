@@ -1,48 +1,73 @@
 import json
 import os
 from datetime import datetime
-from typing import Literal
 
 '''
     data.json
     {
         "id": {
             "NAME": str,
-            "FIRST_UPDATE": datetime,
-            "LAST_REACT": datetime,
-            "LAST_REMINDED": datetime,
-            "EXP": int,
-            "LEVEL": int,
-            "MESSAGE": int, # Số tin nhắn
-            "VOICE": int, #Số phút người dùng voice
-            "REACTION": int #Số lần reaction
+            "DISPLAY": str,
+            "TIMELINE":{
+                "FIRST_UPDATE": datetime,
+                "LAST_REACT": datetime,
+                "LAST_REMINDED": datetime,
+            },
+            "ACTION":{
+                "MESSAGE": int, # Số tin nhắn
+                "VOICE_TIME": int, #Số phút người dùng voice
+                "REACTION": int #Số lần reaction
+            }
+            "LVL":{
+                "LEVEL": int, #Level hiện tại
+                "EXP": int, #Số exp hiện tại
+                "LEVEL_EXP": int, #Số exp cần để lên level tiếp theo
+                "TOTAL_EXP": int, #Tổng số exp
+            }
         }
     }
 '''
+if True: #Setup typing
+    from typing import TypedDict
+    from datetime import datetime
+
+    class TimelineDict(TypedDict):
+        FIRST_UPDATE: str
+        LAST_REACT: str
+        LAST_REMINDED: str
+
+    class ActionDict(TypedDict):
+        MESSAGE: int       # số tin nhắn
+        VOICE_TIME: int    # số phút voice
+        REACTION: int      # số lần reaction
+
+    class LevelDict(TypedDict):
+        LEVEL: int
+        EXP: int
+        LEVEL_EXP: int
+        TOTAL_EXP: int
+
+    class UserData(TypedDict):
+        NAME: str
+        DISPLAY: str
+        TIMELINE: TimelineDict
+        ACTION: ActionDict
+        LVL: LevelDict
+
+    # dict chính: id (chuỗi) -> UserData
+    DataJson = dict[str, UserData]
 
 MESSAGE_EXP = 2 #per message
 REACTION_EXP = 5 #per reaction
-VOICE_EXP = 1 #per minute
+VOICE_EXP = 1 #Minute per exp
 
 BASE_EXP = 100
 ADD_EXP = 25
 
-def expToLevel(exp):
-    level = 1
-    expLv = BASE_EXP
-    while exp >= expLv:
-        level += 1
-        exp -= expLv
-        expLv += ADD_EXP
-    return level
-
-def levelToExp(level):
-    #Amount of exp needed for that level
-    return BASE_EXP * (level - 1) + ADD_EXP * (level - 1) * level // 2
-
 class Data:
     def __init__(self, folder = 'data.json'):
         self.folder = folder
+        self.inVoice : dict[str, datetime] = {}
         if os.path.exists(folder):
             self.loadJson()
         else:
@@ -51,7 +76,7 @@ class Data:
     
     def loadJson(self):
         with open(self.folder, 'r', encoding='utf-8') as f:
-            self.data = json.load(f)
+            self.data : DataJson = json.load(f)
 
     def saveJson(self):
         with open(self.folder, 'w', encoding='utf-8') as f:
@@ -61,18 +86,18 @@ class Data:
         return self.data
     
     def getScoreboard(self):
-        board = sorted(self.data.items(), key=lambda x: x[1]["EXP"], reverse=True)
+        board = sorted(self.data.items(), key=lambda x: x[1]['LVL']["TOTAL_EXP"], reverse=True)
         res = {}
-        oldExp = board[0][1]["EXP"]
+        oldExp = board[0][1]["LVL"]["EXP"]
         rank = 1
         for i in board:
-            if i[1]["EXP"] != oldExp:
+            if i[1]["LVL"]["EXP"] != oldExp:
                 rank += 1
-                oldExp = i[1]["EXP"]
+                oldExp = i[1]["LVL"]["EXP"]
             res[i[0]] = ({
                 "NAME": i[1]["NAME"],
-                "LEVEL": i[1]["LEVEL"],
-                "EXP": i[1]["EXP"],
+                "LEVEL": i[1]["LVL"]["LEVEL"],
+                "EXP": i[1]["LVL"]["EXP"],
                 "RANK": rank
             })
         return res
@@ -81,99 +106,124 @@ class Data:
         id = str(id)
         return self.getScoreboard()[id]["RANK"]
     
-    def getUser(self, id):
+    def getUser(self, id) -> dict[str, str]:
         id = str(id)
         user = self.data[id]
-        user["LEVEL_EXP"] = BASE_EXP + ADD_EXP * (user["LEVEL"] - 1)
-        user["NOW_EXP"] = user["EXP"] - levelToExp(user["LEVEL"])
-        user["RANK"] = self.getRank(id)
-        return user
+        res = {}
+        res["NAME"] = user["NAME"]
+        res["LEVEL"] = user["LVL"]["LEVEL"]
+        res["NOW_EXP"] = user["LVL"]["EXP"]
+        res["LEVEL_EXP"] = user["LVL"]["LEVEL_EXP"]
+        res["RANK"] = self.getRank(id)
+        return res
 
     def verifyData(self, users):
         '''
-        users: [(id, name), ...]
+        users: [(id, name, display_name), ...]
         '''
-        for id, name in users:
-            self.addUser(id, name)
-            self.updateName(id, name)
+        for id, name, display_name in users:
+            self.addUser(id, name, display_name)
+            self.updateName(id, name, display_name)
         ids = set(str(i[0]) for i in users)
         for id in self.data.keys():
             if id not in ids:
                 self.deleteUser(id)
     
-    def addUser(self, id, name):
+    def addUser(self, id, name, display_name):
         id = str(id)
         if id in self.data.keys():
             return
-            
+        
         self.data[id] = {
             "NAME": name,
-            "FIRST_UPDATE": datetime.now().strftime("%Y-%m-%d"),
-            "LAST_REACT": datetime.now().strftime("%Y-%m-%d"),
-            "LAST_REMINDED": datetime.now().strftime("%Y-%m-%d"),
-            "EXP": 0,
-            "LEVEL": 1,
-            "MESSAGE": 0,
-            "VOICE": 0,
-            "VOICE_JOIN_TIME": 0,
-            "REACTION": 0
+            "DISPLAY": display_name,
+            "TIMELINE": {
+                "FIRST_UPDATE": datetime.now().strftime("%Y-%m-%d"),
+                "LAST_REACT": datetime.now().strftime("%Y-%m-%d"),
+                "LAST_REMINDED": datetime.now().strftime("%Y-%m-%d"),
+            },
+            "ACTION": {
+                "MESSAGE": 0,
+                "VOICE_TIME": 0,
+                "REACTION": 0 
+            },
+            "LVL": {
+                "LEVEL": 1,
+                "EXP": 0,
+                "LEVEL_EXP": BASE_EXP,
+                "TOTAL_EXP": 0,
+            }
         }
         
     def checkUser(self, id):
         id = str(id)
         if not id in self.data:
-            self.addUser(id, "SOMETHING_WENT_WRONG")
+            self.addUser(id, "SOMETHING_WENT_WRONG", "SOMETHING_WENT_WRONG")
     
-    def updateName(self, id, name):
+    def updateName(self, id, name, display_name): #NEED TO UPDATE LATER
         id = str(id)
         self.data[id]["NAME"] = name
+        self.data[id]["DISPLAY"] = display_name
         
     def deleteUser(self, id):
         id = str(id)
+        if not id in self.data:
+            return
         del self.data[id]
         self.saveJson()
     
-    def updateLast(self, id):
+    def updateLevel(self, id, amount):
         id = str(id)
         self.checkUser(id)
-        self.data[id]["LAST_REACT"] = datetime.now().strftime("%Y-%m-%d")
-        self.data[id]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
-        self.data[id]["LEVEL"] = expToLevel(self.data[id]["EXP"])
+        
+        userlvl = self.data[id]["LVL"]
+        userlvl["EXP"] += amount
+        if userlvl["EXP"] < 0:
+            userlvl["EXP"] = 0
+        userlvl["TOTAL_EXP"] += amount
+        
+        upgraded = False
+        while userlvl["EXP"] >= userlvl["LEVEL_EXP"]:
+            userlvl["EXP"] -= userlvl["LEVEL_EXP"]
+            userlvl["LEVEL"] += 1
+            userlvl["LEVEL_EXP"] += ADD_EXP
+            upgraded = True
+        
+        self.data[id]["TIMELINE"]["LAST_REACT"] = datetime.now().strftime("%Y-%m-%d")
+        self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
         self.saveJson()
+        if upgraded:
+            return userlvl["LEVEL"]
+        else:
+            return 0
     
     def addMessage(self, id):
         id = str(id)
         self.checkUser(id)
-        self.data[id]["MESSAGE"] += 1
-        self.data[id]["EXP"] += MESSAGE_EXP
-        self.updateLast(id)
+        self.data[id]["ACTION"]["MESSAGE"] += 1
+        return self.updateLevel(id, MESSAGE_EXP)
     
     def addReaction(self, id, add = True):
         id = str(id)
         self.checkUser(id)
-        self.data[id]["REACTION"] += 1 if add else -1
-        self.data[id]["EXP"] += REACTION_EXP if add else -REACTION_EXP
-        self.updateLast(id)
+        self.data[id]["ACTION"]["REACTION"] += 1 if add else -1
+        return self.updateLevel(id, REACTION_EXP if add else -REACTION_EXP)
     
     def updateVoice(self, id, join):
         id = str(id)
         self.checkUser(id)
         if join:
-            # Lưu timestamp chính xác đến giây
-            self.data[id]["VOICE_JOIN_TIME"] = datetime.now().isoformat(timespec="seconds")
+            self.inVoice[id] = datetime.now()
+            return 0
         else:
-            # Parse lại timestamp
-            join_time = datetime.fromisoformat(self.data[id].get("VOICE_JOIN_TIME", 0))
-            voice_minutes = abs(int((datetime.now() - join_time).total_seconds() // 60))
-            if voice_minutes < 60 * 72: #Voice 3 ngày => Vô lý
-                self.data[id]["VOICE"] += voice_minutes
-                self.data[id]["EXP"] += voice_minutes * VOICE_EXP // 3
-        self.updateLast(id)
-    
+            if id in self.inVoice:
+                inVoiceTime = (datetime.now() - self.inVoice[id]).seconds // 60
+                self.data[id]["ACTION"]["VOICE_TIME"] += inVoiceTime
+                del self.inVoice[id]
+                return self.updateLevel(id, inVoiceTime // VOICE_EXP)
+                
     def getWarn(self, id):
         id = str(id)
         self.checkUser(id)
-        self.data[id]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
-
+        self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
         self.saveJson()
-
