@@ -95,7 +95,7 @@ Bot hỗ trợ việc tự động lọc người dùng không online trong th�
         for i, data in board.items():
             if i == str(ctx.author.id):
                 used = True
-            display += f"| {data['RANK']:<6} | {clean_name(ctx.guild.get_member(int(i)).display_name):<32} | {data['LEVEL']:<6} | {data['EXP']:<8} |\n" #type:ignore
+            display += f"| {data['RANK']:<6} | {clean_name(data['DISPLAY']):<32} | {data['LEVEL']:<6} | {data['EXP']:<8} |\n" #type:ignore
             line += 1
             if line == MAXLINE:
                 break
