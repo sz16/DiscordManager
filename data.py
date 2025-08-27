@@ -80,7 +80,7 @@ class Data:
 
     def saveJson(self):
         with open(self.folder, 'w', encoding='utf-8') as f:
-            json.dump(self.data, f, indent=4)
+            json.dump(self.data, f, indent=4, ensure_ascii = False)
         
     def getData(self):
         return self.data
@@ -226,4 +226,5 @@ class Data:
         id = str(id)
         self.checkUser(id)
         self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
+
         self.saveJson()
