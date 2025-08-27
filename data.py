@@ -80,7 +80,7 @@ class Data:
 
     def saveJson(self):
         with open(self.folder, 'w', encoding='utf-8') as f:
-            json.dump(self.data, f, indent=4, ensure_ascii = False)
+            json.dump(self.data, f, indent=4, ensure_ascii=False)
         
     def getData(self):
         return self.data
@@ -96,6 +96,7 @@ class Data:
                 oldExp = i[1]["LVL"]["EXP"]
             res[i[0]] = ({
                 "NAME": i[1]["NAME"],
+                "DISPLAY": i[1]["DISPLAY"],
                 "LEVEL": i[1]["LVL"]["LEVEL"],
                 "EXP": i[1]["LVL"]["EXP"],
                 "RANK": rank
@@ -226,5 +227,4 @@ class Data:
         id = str(id)
         self.checkUser(id)
         self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
-
         self.saveJson()
