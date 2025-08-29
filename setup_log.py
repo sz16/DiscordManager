@@ -5,8 +5,8 @@ class TruncateFormatter(logging.Formatter):
         # Lấy message đã format theo kiểu chuẩn
         msg = super().format(record)
         # Nếu dài quá 120 ký tự thì cắt + thêm "..."
-        if len(msg) > 600:
-            return msg[:597] + "..."
+        if len(msg) > 1200:
+            return msg[:1197] + "..."
         return msg
 
 def setup_logging():
