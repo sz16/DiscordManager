@@ -27,7 +27,12 @@ def setup_task(bot: "MyBot"):
             logger.error("Server is None")
             return
         bot.data.verifyData(list((str(i.id), i.name, i.display_name) for i in server.members if i.bot == False))
-            
+        
+        tz_vn = ZoneInfo("Asia/Ho_Chi_Minh")
+        now_vn = datetime.now(tz_vn)
+        
+        if now_vn.hour != 19:
+            return
         # --- Check user last react
         logger.info("Auto check user")
         for id, user in data.items():
@@ -39,12 +44,12 @@ def setup_task(bot: "MyBot"):
             if delta == 14:
                 await chat(f"<@{id}> Hmmm, bro chưa hoạt động được 14 ngày rồi. Sớm quay lại server nhá")
                 bot.data.getWarn(id)
-            elif delta == 21:
-                await chat(f"<@{id}> Hmmm, bro chưa hoạt động gì được 21 ngày rồi. Bot sẽ xem xét việc kick các thành viên không hoạt động trong thời gian dài")
+            elif delta == 24:
+                await chat(f"<@{id}> Hmmm, bro chưa hoạt động gì được 24 ngày rồi. Bot sẽ xem xét việc kick các thành viên không hoạt động trong thời gian dài")
                 bot.data.getWarn(id)
-            elif delta == 22:
+            elif delta == 25:
                 #Kick user
-                logger.info(f"Kick user {id} for not active for 22 days")
+                logger.info(f"Kick user {id} for not active for 25 days")
                 member = server.get_member(int(id))
                 if member is None:
                     logger.error("Member is None")
@@ -58,5 +63,6 @@ def setup_task(bot: "MyBot"):
                     await chat(f"Có lỗi đã xảy ra. Bot không đủ quyền hạn để thực hiện kick user này.")
                 except Exception as e:
                     logger.error(e)
+
 
     check.start()    
