@@ -33,7 +33,7 @@ def send_data():
         return jsonify({"error": "Log file not found"}), 404
 
 @app.route('/debug')
-def send_log():
+def send_debug():
     if os.path.exists(debug_path):
         with open(debug_path, 'r', encoding='utf-8') as f:
             data = f.read()
@@ -100,3 +100,4 @@ if __name__ == "__main__":
     while True:
 
         pass
+
