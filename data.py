@@ -126,9 +126,11 @@ class Data:
             self.addUser(id, name, display_name)
             self.updateName(id, name, display_name)
         ids = set(str(i[0]) for i in users)
+        need_delete = []
         for id in self.data.keys():
-            if id not in ids:
-                self.deleteUser(id)
+            need_delete.append(id)
+        for id in need_delete:
+            self.deleteUser(id)
     
     def addUser(self, id, name, display_name):
         id = str(id)
@@ -227,4 +229,5 @@ class Data:
         id = str(id)
         self.checkUser(id)
         self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
+
         self.saveJson()
