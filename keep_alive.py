@@ -17,6 +17,7 @@ log.setLevel(logging.ERROR)  # chỉ hiển thị error trở lên
 app = Flask(__name__)
 data_path = 'data.json'
 log_path = 'bot.log'
+debug_path = 'debug.log'
 
 @app.route('/')
 def index():
@@ -28,6 +29,15 @@ def send_data():
         with open(data_path, 'r', encoding='utf-8') as f:
             data = f.read()
         return Response(data, mimetype='application/json')
+    else:
+        return jsonify({"error": "Log file not found"}), 404
+
+@app.route('/debug')
+def send_log():
+    if os.path.exists(debug_path):
+        with open(debug_path, 'r', encoding='utf-8') as f:
+            data = f.read()
+        return Response(data, mimetype='text/plain')
     else:
         return jsonify({"error": "Log file not found"}), 404
 
@@ -88,4 +98,5 @@ def keep_alive(bot: Optional["MyBot"] = None):
 if __name__ == "__main__": 
     keep_alive()
     while True:
+
         pass
