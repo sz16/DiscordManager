@@ -129,7 +129,7 @@ class Data:
             self.addUser(id, name, display_name)
             self.updateName(id, name, display_name)
         need_delete = []
-        ids = set(str(id) for id in users.keys())
+        ids = set(str(id[0]) for id in users)
         for id in self.data.keys():
             if id not in ids:
                 need_delete.append(id)
