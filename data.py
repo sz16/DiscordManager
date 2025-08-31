@@ -1,6 +1,9 @@
 import json
 import os
 from datetime import datetime
+import logging
+
+logger = logging.getLogger(__name__)
 
 '''
     data.json
@@ -125,18 +128,19 @@ class Data:
         for id, name, display_name in users:
             self.addUser(id, name, display_name)
             self.updateName(id, name, display_name)
-        ids = set(str(i[0]) for i in users)
         need_delete = []
         for id in self.data.keys():
-            need_delete.append(id)
+            if id not in users:
+                need_delete.append(id)
         for id in need_delete:
+            logger.debug(f"Delete user {id}")
             self.deleteUser(id)
     
     def addUser(self, id, name, display_name):
         id = str(id)
         if id in self.data.keys():
             return
-        
+        logger.debug(f"Add user {id}")
         self.data[id] = {
             "NAME": name,
             "DISPLAY": display_name,
@@ -163,7 +167,7 @@ class Data:
         if not id in self.data:
             self.addUser(id, "SOMETHING_WENT_WRONG", "SOMETHING_WENT_WRONG")
     
-    def updateName(self, id, name, display_name): #NEED TO UPDATE LATER
+    def updateName(self, id, name, display_name):
         id = str(id)
         self.data[id]["NAME"] = name
         self.data[id]["DISPLAY"] = display_name

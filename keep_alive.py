@@ -10,9 +10,7 @@ botClone: Optional["MyBot"] = None
 
 import logging
 
-# Tắt logging của werkzeug
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)  # chỉ hiển thị error trở lên
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 data_path = 'data.json'
@@ -70,6 +68,7 @@ def edit_logs():
 # Nhận dữ liệu POST và lưu vào file
 @app.route('/update_logs', methods=['POST'])
 def update_logs():
+    logger.debug("Update data.json")
     data = request.form.get("json_data")
     if not data:
         return "No data received", 400

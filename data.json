@@ -4,19 +4,19 @@
         "DISPLAY": "Heraholic💝",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-28",
-            "LAST_REMINDED": "2025-08-28"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
             "MESSAGE": 2,
-            "VOICE_TIME": 881,
+            "VOICE_TIME": 1500,
             "REACTION": 0
         },
         "LVL": {
-            "LEVEL": 4,
-            "EXP": 16,
-            "LEVEL_EXP": 175,
-            "TOTAL_EXP": 391
+            "LEVEL": 7,
+            "EXP": 35,
+            "LEVEL_EXP": 250,
+            "TOTAL_EXP": 1010
         }
     },
     "957258109905154128": {
@@ -24,19 +24,19 @@
         "DISPLAY": "thèm lẩu gà",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-28",
-            "LAST_REMINDED": "2025-08-28"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
             "MESSAGE": 4,
-            "VOICE_TIME": 728,
+            "VOICE_TIME": 1372,
             "REACTION": 0
         },
         "LVL": {
-            "LEVEL": 3,
-            "EXP": 25,
-            "LEVEL_EXP": 150,
-            "TOTAL_EXP": 250
+            "LEVEL": 6,
+            "EXP": 144,
+            "LEVEL_EXP": 225,
+            "TOTAL_EXP": 894
         }
     },
     "1160384710237761566": {
@@ -104,39 +104,19 @@
         "DISPLAY": "Gumballl(Zach)",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-29",
-            "LAST_REMINDED": "2025-08-29"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 6,
-            "VOICE_TIME": 2,
+            "MESSAGE": 20,
+            "VOICE_TIME": 64,
             "REACTION": 0
         },
         "LVL": {
-            "LEVEL": 1,
-            "EXP": 14,
-            "LEVEL_EXP": 100,
-            "TOTAL_EXP": 14
-        }
-    },
-    "235148962103951360": {
-        "NAME": "Carl-bot",
-        "DISPLAY": "Carl-bot",
-        "TIMELINE": {
-            "FIRST_UPDATE": "2025-08-25",
-            "LAST_REACT": "2025-08-25",
-            "LAST_REMINDED": "2025-08-25"
-        },
-        "ACTION": {
-            "MESSAGE": 0,
-            "VOICE_TIME": 0,
-            "REACTION": 0
-        },
-        "LVL": {
-            "LEVEL": 1,
-            "EXP": 0,
-            "LEVEL_EXP": 100,
-            "TOTAL_EXP": 0
+            "LEVEL": 2,
+            "EXP": 4,
+            "LEVEL_EXP": 125,
+            "TOTAL_EXP": 104
         }
     },
     "488301451291000863": {
@@ -144,19 +124,19 @@
         "DISPLAY": "Rể hải dương",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-29",
-            "LAST_REMINDED": "2025-08-29"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 8,
-            "VOICE_TIME": 209,
-            "REACTION": 2
+            "MESSAGE": 15,
+            "VOICE_TIME": 374,
+            "REACTION": 5
         },
         "LVL": {
-            "LEVEL": 2,
-            "EXP": 46,
-            "LEVEL_EXP": 125,
-            "TOTAL_EXP": 146
+            "LEVEL": 3,
+            "EXP": 115,
+            "LEVEL_EXP": 150,
+            "TOTAL_EXP": 340
         }
     },
     "1079305340883050568": {
@@ -324,19 +304,19 @@
         "DISPLAY": "✿Thungwhehe✿",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-26",
-            "LAST_REMINDED": "2025-08-26"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 4,
-            "VOICE_TIME": 52,
+            "MESSAGE": 6,
+            "VOICE_TIME": 100,
             "REACTION": 2
         },
         "LVL": {
             "LEVEL": 1,
-            "EXP": 35,
+            "EXP": 87,
             "LEVEL_EXP": 100,
-            "TOTAL_EXP": 35
+            "TOTAL_EXP": 87
         }
     },
     "695189202769281174": {
@@ -424,19 +404,19 @@
         "DISPLAY": "brim canh cut",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-26",
-            "LAST_REMINDED": "2025-08-26"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 0,
+            "MESSAGE": 2,
             "VOICE_TIME": 335,
             "REACTION": 0
         },
         "LVL": {
             "LEVEL": 2,
-            "EXP": 11,
+            "EXP": 15,
             "LEVEL_EXP": 125,
-            "TOTAL_EXP": 111
+            "TOTAL_EXP": 115
         }
     },
     "908887423788941342": {
@@ -444,19 +424,19 @@
         "DISPLAY": "Đàn em Gumballl",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-29",
-            "LAST_REMINDED": "2025-08-29"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 15,
-            "VOICE_TIME": 371,
+            "MESSAGE": 16,
+            "VOICE_TIME": 535,
             "REACTION": 0
         },
         "LVL": {
-            "LEVEL": 2,
-            "EXP": 107,
-            "LEVEL_EXP": 125,
-            "TOTAL_EXP": 207
+            "LEVEL": 3,
+            "EXP": 148,
+            "LEVEL_EXP": 150,
+            "TOTAL_EXP": 373
         }
     },
     "1121791748583215174": {
@@ -464,19 +444,19 @@
         "DISPLAY": "....",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-22",
-            "LAST_REMINDED": "2025-08-12"
+            "LAST_REACT": "2025-08-29",
+            "LAST_REMINDED": "2025-08-29"
         },
         "ACTION": {
-            "MESSAGE": 0,
+            "MESSAGE": 2,
             "VOICE_TIME": 0,
             "REACTION": 0
         },
         "LVL": {
             "LEVEL": 1,
-            "EXP": 0,
+            "EXP": 4,
             "LEVEL_EXP": 100,
-            "TOTAL_EXP": 0
+            "TOTAL_EXP": 4
         }
     },
     "1229039352797991013": {
@@ -704,19 +684,19 @@
         "DISPLAY": "Linhaholic❣",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-28",
-            "LAST_REMINDED": "2025-08-28"
+            "LAST_REACT": "2025-08-29",
+            "LAST_REMINDED": "2025-08-29"
         },
         "ACTION": {
             "MESSAGE": 3,
-            "VOICE_TIME": 707,
+            "VOICE_TIME": 834,
             "REACTION": 0
         },
         "LVL": {
             "LEVEL": 3,
-            "EXP": 16,
+            "EXP": 143,
             "LEVEL_EXP": 150,
-            "TOTAL_EXP": 241
+            "TOTAL_EXP": 368
         }
     },
     "812207328735526954": {
@@ -984,19 +964,19 @@
         "DISPLAY": "Shin",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-29",
-            "LAST_REMINDED": "2025-08-29"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 1,
+            "MESSAGE": 12,
             "VOICE_TIME": 0,
             "REACTION": 0
         },
         "LVL": {
             "LEVEL": 1,
-            "EXP": 2,
+            "EXP": 24,
             "LEVEL_EXP": 100,
-            "TOTAL_EXP": 2
+            "TOTAL_EXP": 24
         }
     },
     "807868620918882326": {
@@ -1104,19 +1084,19 @@
         "DISPLAY": "ChaosMAX_",
         "TIMELINE": {
             "FIRST_UPDATE": "2025-08-12",
-            "LAST_REACT": "2025-08-26",
-            "LAST_REMINDED": "2025-08-26"
+            "LAST_REACT": "2025-08-30",
+            "LAST_REMINDED": "2025-08-30"
         },
         "ACTION": {
-            "MESSAGE": 8,
+            "MESSAGE": 18,
             "VOICE_TIME": 427,
-            "REACTION": 0
+            "REACTION": 1
         },
         "LVL": {
             "LEVEL": 2,
-            "EXP": 58,
+            "EXP": 83,
             "LEVEL_EXP": 125,
-            "TOTAL_EXP": 158
+            "TOTAL_EXP": 183
         }
     },
     "1407013342132043928": {
@@ -1197,6 +1177,26 @@
             "EXP": 0,
             "LEVEL_EXP": 100,
             "TOTAL_EXP": 0
+        }
+    },
+    "893587012190355467": {
+        "NAME": "zanggg",
+        "DISPLAY": "nashii.",
+        "TIMELINE": {
+            "FIRST_UPDATE": "2025-08-29",
+            "LAST_REACT": "2025-08-29",
+            "LAST_REMINDED": "2025-08-29"
+        },
+        "ACTION": {
+            "MESSAGE": 0,
+            "VOICE_TIME": 1,
+            "REACTION": 0
+        },
+        "LVL": {
+            "LEVEL": 1,
+            "EXP": 1,
+            "LEVEL_EXP": 100,
+            "TOTAL_EXP": 1
         }
     }
 }

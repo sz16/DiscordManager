@@ -19,7 +19,7 @@ def setup_task(bot: "MyBot"):
         if isinstance(channel, discord.TextChannel):
             await channel.send(message)
     
-    @tasks.loop(minutes=1)
+    @tasks.loop(minutes=10)
     async def check():
         logger.debug("Start check user in-server")
         data = bot.data.getData()
@@ -34,8 +34,8 @@ def setup_task(bot: "MyBot"):
         now_vn = datetime.now(tz_vn)
         
         if now_vn.hour != 19:
-            return
             logger.debug("This is not 7pm, stop auto check")
+            return
         # --- Check user last react
         logger.debug("Auto check user react")
         for id, user in data.items():
