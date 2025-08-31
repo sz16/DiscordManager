@@ -21,6 +21,7 @@ def setup_task(bot: "MyBot"):
     
     @tasks.loop(minutes=1)
     async def check():
+        logger.debug("Start check user in-server")
         data = bot.data.getData()
         # --- Check user valid
         server = bot.get_guild(serverID)
@@ -34,9 +35,9 @@ def setup_task(bot: "MyBot"):
         
         if now_vn.hour != 19:
             return
-            logger.info("This is not 7pm, stop auto check")
+            logger.debug("This is not 7pm, stop auto check")
         # --- Check user last react
-        logger.info("Auto check user")
+        logger.debug("Auto check user react")
         for id, user in data.items():
             #Check amount of day from LAST_REACT to today
             delta = (datetime.now() - datetime.strptime(user['TIMELINE']["LAST_REACT"], '%Y-%m-%d')).days
@@ -58,9 +59,9 @@ def setup_task(bot: "MyBot"):
                     continue
                 bot.data.getWarn(id)
                 try:
-                    await chat(f"<@{id}> Dựa vào lịch sử được ghi nhận bởi bot, chúng tôi nhận thấy bạn đã không hoạt động trong 22 ngày. Vì vậy, bot sẽ thực hiện kick người dùng để giúp server không bị loãng thành viên.")
-                    await member.kick(reason="Not active for 22 days")
-                    logger.info(f"Kick user {member} for not active for 22 days")
+                    await chat(f"<@{id}> Dựa vào lịch sử được ghi nhận bởi bot, chúng tôi nhận thấy bạn đã không hoạt động trong 25 ngày. Vì vậy, bot sẽ thực hiện kick người dùng để giúp server không bị loãng thành viên.")
+                    await member.kick(reason="Not active for 25 days")
+                    logger.info(f"Kick user {member} for not active for 25 days")
                 except discord.Forbidden:
                     await chat(f"Có lỗi đã xảy ra. Bot không đủ quyền hạn để thực hiện kick user này.")
                 except Exception as e:
@@ -68,5 +69,6 @@ def setup_task(bot: "MyBot"):
 
 
     check.start()    
+
 
 
