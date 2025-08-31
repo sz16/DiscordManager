@@ -33,6 +33,7 @@ def setup_task(bot: "MyBot"):
         
         if now_vn.hour != 19:
             return
+            logger.info("This is not 7pm, stop auto check")
         # --- Check user last react
         logger.info("Auto check user")
         for id, user in data.items():
@@ -66,3 +67,4 @@ def setup_task(bot: "MyBot"):
 
 
     check.start()    
+
