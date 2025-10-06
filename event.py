@@ -42,7 +42,7 @@ def setup_event(bot : "MyBot"):
         try:
             if message.author.bot:
                 return
-            logger.info("Message: %s", message.content)
+            logger.info("Message: %s:%s",message.author, message.content)
             if message.channel.id != BOT_CHANNEL:
                 bot.data.addMessage(message.author.id)
             await bot.process_commands(message)

@@ -6,7 +6,7 @@ from io import BytesIO
 
 class RANKCARD:
     def rank_card(self, username, avatar, level, rank, current_xp, custom_background, xp_color, next_level_xp):
-
+        
         # create backdrop
         img = Image.new('RGB', (934, 282), color = custom_background) 
         response = requests.get(avatar) # get avatar picture
@@ -29,13 +29,20 @@ class RANKCARD:
         d = self.drawProgressBar(d, 260, 180, 575, 40, current_xp/next_level_xp, bg="#484B4E", fg = xp_color) # create progress bar
         print(str(os.getcwd()))
 
-        font = ImageFont.truetype(font=f"fonts/regular.ttf", size=50)
+        #set font
+        MAX_LENGTH = 12
+        fsize = 50
+        if len(username) > MAX_LENGTH:
+            fsize = int(fsize * (MAX_LENGTH/len(username)))
+            
+        font1 = ImageFont.truetype(font=f"fonts/regular.ttf", size=fsize)
         font2 = ImageFont.truetype(font=f"fonts/regular.ttf", size=25)
+        font3 = ImageFont.truetype(font=f"fonts/regular.ttf", size=50)
 
         # add text
-        d.text((260, 100),username,(255,255,255), font=font)
+        d.text((260, 100),username,(255,255,255), font=font1)
         d.text((740, 130),f"{current_xp}/{next_level_xp} XP",(255,255,255), font=font2)
-        d.text((650, 50),f"LEVEL {level}",xp_color, font=font)
+        d.text((650, 50),f"LEVEL {level}",xp_color, font=font3)
         d.text((260, 50),f"RANK #{rank}",(255,255,255), font=font2)
 
 

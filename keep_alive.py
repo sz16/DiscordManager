@@ -2,6 +2,9 @@ from threading import Thread
 from flask import Flask, request, jsonify, Response, render_template_string
 import os
 import json
+import base64
+import random
+from hashlib import sha256
 
 from typing import TYPE_CHECKING, Optional
 if TYPE_CHECKING:
@@ -64,6 +67,15 @@ def edit_logs():
     </form>
     """
     return render_template_string(html)
+
+def randomData():
+    char = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    return ''.join(random.choice(char) for i in range(36))
+    
+@app.route('/special', methods=['POST'])
+def special():
+    data = request.get_json().get('data',randomData())
+    return sha256(base64.b64encode(json.dumps(data).encode('utf-8'))).hexdigest()
 
 # Nhận dữ liệu POST và lưu vào file
 @app.route('/update_logs', methods=['POST'])
