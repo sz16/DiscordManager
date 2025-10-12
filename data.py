@@ -200,7 +200,7 @@ class Data:
         self.data[id]["TIMELINE"]["LAST_REACT"] = datetime.now().strftime("%Y-%m-%d")
         self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
         self.saveJson()
-        if upgraded:
+        if upgraded and userlvl["LEVEL"] % 10 == 0:
             return userlvl["LEVEL"]
         else:
             return 0
