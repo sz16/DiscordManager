@@ -36,6 +36,11 @@ rc = DrawCard.RANKCARD()
 
 def setup_command(bot : "MyBot"):
     @bot.command()
+    async def ping(ctx:commands.Context):
+        #with ping ms
+        await ctx.send(f"Pong! {round(bot.latency * 1000)}ms")
+    
+    @bot.command()
     async def help(ctx:commands.Context):
         await ctx.send(
 """\

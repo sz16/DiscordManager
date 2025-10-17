@@ -80,13 +80,17 @@ class Data:
     def loadJson(self):
         with open(self.folder, 'r', encoding='utf-8') as f:
             self.data : DataJson = json.load(f)
+            
+    def updateNewData(self, newdata):
+        self.data = newdata
+        self.saveJson()
 
     def saveJson(self):
         with open(self.folder, 'w', encoding='utf-8') as f:
             json.dump(self.data, f, indent=4, ensure_ascii=False)
         
-    def getData(self):
-        return self.data
+    def getData(self) -> DataJson:
+        return json.loads(json.dumps(self.data))
     
     def getScoreboard(self):
         board = sorted(self.data.items(), key=lambda x: x[1]['LVL']["TOTAL_EXP"], reverse=True)
@@ -236,3 +240,54 @@ class Data:
         self.data[id]["TIMELINE"]["LAST_REMINDED"] = datetime.now().strftime("%Y-%m-%d")
 
         self.saveJson()
+
+    def dataSync(self, cloud: DataJson):
+        ans = {}
+        local = self.getData()
+        # Lấy tất cả ID xuất hiện trong cả 2 dict
+        all_ids = set(local.keys()) | set(cloud.keys())
+
+        for uid in all_ids:
+            if uid in local and uid not in cloud:
+                ans[uid] = local[uid]
+                logger.debug(f"New user {uid} from cloud")
+            elif uid in cloud and uid not in local:
+                ans[uid] = cloud[uid]
+                logger.debug(f"New user {uid} from local")
+            else:
+                # Cả hai đều có uid → cần so sánh theo thứ tự ưu tiên
+                a = local[uid]
+                b = cloud[uid]
+
+                # --- Ưu tiên theo thứ tự: FIRST_UPDATE sớm hơn → LAST_REMINDED mới hơn → TOTAL_EXP cao hơn ---
+                fa = datetime.fromisoformat(a["TIMELINE"]["FIRST_UPDATE"])
+                fb = datetime.fromisoformat(b["TIMELINE"]["FIRST_UPDATE"])
+                la = datetime.fromisoformat(a["TIMELINE"]["LAST_REMINDED"])
+                lb = datetime.fromisoformat(b["TIMELINE"]["LAST_REMINDED"])
+                ea = a["LVL"]["TOTAL_EXP"]
+                eb = b["LVL"]["TOTAL_EXP"]
+
+                if fa < fb:
+                    ans[uid] = a
+                    logger.debug(f"Update user {uid} from cloud because of FIRST_UPDATE")
+                elif fa > fb:
+                    ans[uid] = b
+                    logger.debug(f"Update user {uid} from local because of FIRST_UPDATE")
+                else:
+                    # FIRST_UPDATE bằng nhau → xét LAST_REMINDED (cái mới hơn thắng)
+                    if la > lb:
+                        ans[uid] = a
+                        logger.debug(f"Update user {uid} from cloud because of LAST_REMINDED")
+                    elif la < lb:
+                        ans[uid] = b
+                        logger.debug(f"Update user {uid} from local because of LAST_REMINDED")
+                    else:
+                        # Cuối cùng, chọn TOTAL_EXP cao hơn
+                        if ea >= eb:
+                            ans[uid] = a
+                            logger.debug(f"Update user {uid} from cloud because of TOTAL_EXP")
+                        else:
+                            ans[uid] = b
+                            logger.debug(f"Update user {uid} from local because of TOTAL_EXP")
+        
+        self.updateNewData(ans)

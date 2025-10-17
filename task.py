@@ -3,6 +3,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from discord.ext import commands, tasks
 import logging
+import requests
 
 from typing import TYPE_CHECKING
 if TYPE_CHECKING:
@@ -13,6 +14,32 @@ logger = logging.getLogger(__name__)
 channelID = 1389554769634398299
 serverID = 760008091827306498
 
+FIREBASE_URL = "https://chaosmax-discorddata-1-default-rtdb.asia-southeast1.firebasedatabase.app/.json"
+
+def read_data():
+    res = requests.get(FIREBASE_URL)
+    print("Status:", res.status_code)
+    print("Response:", res.text)
+    if res.status_code == 200:
+        return res.json()
+    else:
+        return {"error": res.text}
+
+def write_data(data):
+    res = requests.put(FIREBASE_URL, json=data)
+    print("Status:", res.status_code)
+    print("Response:", res.text)
+    return res.status_code == 200
+
+def cloudSyncRead(bot: "MyBot"):
+    cloud = read_data()
+    if cloud.get("error") is None:
+        bot.data.dataSync(cloud) #type: ignore
+
+def cloudSyncWrite(bot: "MyBot"):
+    data = bot.data.getData()
+    write_data(data)
+    
 def setup_task(bot: "MyBot"):
     async def chat(message):
         channel = bot.get_channel(channelID)
@@ -22,6 +49,8 @@ def setup_task(bot: "MyBot"):
     @tasks.loop(minutes=10)
     async def check():
         logger.debug("Start check user in-server")
+        cloudSyncRead(bot)
+        
         data = bot.data.getData()
         # --- Check user valid
         server = bot.get_guild(serverID)
@@ -50,5 +79,7 @@ def setup_task(bot: "MyBot"):
             elif delta != 0 and delta % 24 == 0:
                 await chat(f"<@{id}> Chưa hoạt động gì được {delta} ngày rồi. Chúng tôi sẽ xem xét việc kick bạn")
                 bot.data.getWarn(id)
+        
+        cloudSyncWrite(bot)
 
     check.start()
